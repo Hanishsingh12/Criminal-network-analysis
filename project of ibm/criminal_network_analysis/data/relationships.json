@@ -1,0 +1,72 @@
+[
+  {
+    "relationship_id": "R001",
+    "entity_id_1": "E001",
+    "entity_id_2": "E002",
+    "relationship_type": "Associate",
+    "notes": "Known associates since 2022"
+  },
+  {
+    "relationship_id": "R002",
+    "entity_id_1": "E001",
+    "entity_id_2": "E004",
+    "relationship_type": "Financial",
+    "notes": "E001 is a beneficial owner of Nexus Trading"
+  },
+  {
+    "relationship_id": "R003",
+    "entity_id_1": "E002",
+    "entity_id_2": "E003",
+    "relationship_type": "Communication",
+    "notes": "Encrypted messaging on Operation Blackwall"
+  },
+  {
+    "relationship_id": "R004",
+    "entity_id_1": "E003",
+    "entity_id_2": "E005",
+    "relationship_type": "Associate",
+    "notes": "Met at Port Meridian"
+  },
+  {
+    "relationship_id": "R005",
+    "entity_id_1": "E004",
+    "entity_id_2": "E007",
+    "relationship_type": "Financial",
+    "notes": "Payments routed through Irongate Logistics"
+  },
+  {
+    "relationship_id": "R006",
+    "entity_id_1": "E005",
+    "entity_id_2": "E001",
+    "relationship_type": "Communication",
+    "notes": "Regular phone contact"
+  },
+  {
+    "relationship_id": "R007",
+    "entity_id_1": "E006",
+    "entity_id_2": "E004",
+    "relationship_type": "Financial",
+    "notes": "Transferred funds into Nexus accounts"
+  },
+  {
+    "relationship_id": "R008",
+    "entity_id_1": "E007",
+    "entity_id_2": "E008",
+    "relationship_type": "Associate",
+    "notes": "E008 used Irongate cargo routes"
+  },
+  {
+    "relationship_id": "R009",
+    "entity_id_1": "E008",
+    "entity_id_2": "E002",
+    "relationship_type": "Communication",
+    "notes": "Coordinated via encrypted channel"
+  },
+  {
+    "relationship_id": "R010",
+    "entity_id_1": "E003",
+    "entity_id_2": "E004",
+    "relationship_type": "Financial",
+    "notes": "Wire transfers linked to Operation Blackwall"
+  }
+]

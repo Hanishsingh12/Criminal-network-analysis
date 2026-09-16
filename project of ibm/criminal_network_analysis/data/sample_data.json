@@ -1,0 +1,174 @@
+{
+  "entities": [
+    {
+      "entity_id": "E001",
+      "name": "Marcus Holloway",
+      "entity_type": "Person",
+      "alias": "The Broker",
+      "notes": "Key coordinator in multiple incidents"
+    },
+    {
+      "entity_id": "E002",
+      "name": "Elena Voss",
+      "entity_type": "Person",
+      "alias": "Ghost",
+      "notes": "Known for digital communication channels"
+    },
+    {
+      "entity_id": "E003",
+      "name": "Dante Reyes",
+      "entity_type": "Person",
+      "alias": "Cipher",
+      "notes": "Technical specialist"
+    },
+    {
+      "entity_id": "E004",
+      "name": "Nexus Trading Ltd",
+      "entity_type": "Organization",
+      "alias": "Nexus",
+      "notes": "Shell company linked to financial transfers"
+    },
+    {
+      "entity_id": "E005",
+      "name": "Ivan Petrov",
+      "entity_type": "Person",
+      "alias": "Shadow",
+      "notes": "Logistics coordinator"
+    },
+    {
+      "entity_id": "E006",
+      "name": "Lyra Chen",
+      "entity_type": "Person",
+      "alias": "",
+      "notes": "Financial analyst"
+    },
+    {
+      "entity_id": "E007",
+      "name": "Irongate Logistics",
+      "entity_type": "Organization",
+      "alias": "Irongate",
+      "notes": "Freight and cargo company"
+    },
+    {
+      "entity_id": "E008",
+      "name": "Sofia Navarro",
+      "entity_type": "Person",
+      "alias": "Viper",
+      "notes": "Field operative"
+    }
+  ],
+  "incidents": [
+    {
+      "incident_id": "I001",
+      "title": "Operation Blackwall",
+      "category": "Cybercrime",
+      "date": "2024-03-15",
+      "description": "Large-scale network intrusion targeting financial systems.",
+      "linked_entity_ids": ["E001", "E002", "E003"]
+    },
+    {
+      "incident_id": "I002",
+      "title": "Meridian Bank Fraud",
+      "category": "Fraud",
+      "date": "2024-05-22",
+      "description": "Fraudulent transfers traced to shell accounts.",
+      "linked_entity_ids": ["E001", "E004", "E006"]
+    },
+    {
+      "incident_id": "I003",
+      "title": "Port Cargo Theft",
+      "category": "Theft",
+      "date": "2024-07-08",
+      "description": "High-value cargo went missing at Port Meridian.",
+      "linked_entity_ids": ["E005", "E007", "E008"]
+    },
+    {
+      "incident_id": "I004",
+      "title": "Shell Company Scheme",
+      "category": "Money Laundering",
+      "date": "2024-09-01",
+      "description": "Funds routed through multiple shell companies.",
+      "linked_entity_ids": ["E004", "E006", "E007"]
+    },
+    {
+      "incident_id": "I005",
+      "title": "Dark Web Exchange",
+      "category": "Cybercrime",
+      "date": "2024-11-14",
+      "description": "Encrypted data packages exchanged on dark web forums.",
+      "linked_entity_ids": ["E002", "E003", "E008"]
+    }
+  ],
+  "relationships": [
+    {
+      "relationship_id": "R001",
+      "entity_id_1": "E001",
+      "entity_id_2": "E002",
+      "relationship_type": "Associate",
+      "notes": "Known associates since 2022"
+    },
+    {
+      "relationship_id": "R002",
+      "entity_id_1": "E001",
+      "entity_id_2": "E004",
+      "relationship_type": "Financial",
+      "notes": "E001 is a beneficial owner of Nexus Trading"
+    },
+    {
+      "relationship_id": "R003",
+      "entity_id_1": "E002",
+      "entity_id_2": "E003",
+      "relationship_type": "Communication",
+      "notes": "Encrypted messaging on Operation Blackwall"
+    },
+    {
+      "relationship_id": "R004",
+      "entity_id_1": "E003",
+      "entity_id_2": "E005",
+      "relationship_type": "Associate",
+      "notes": "Met at Port Meridian"
+    },
+    {
+      "relationship_id": "R005",
+      "entity_id_1": "E004",
+      "entity_id_2": "E007",
+      "relationship_type": "Financial",
+      "notes": "Payments routed through Irongate Logistics"
+    },
+    {
+      "relationship_id": "R006",
+      "entity_id_1": "E005",
+      "entity_id_2": "E001",
+      "relationship_type": "Communication",
+      "notes": "Regular phone contact"
+    },
+    {
+      "relationship_id": "R007",
+      "entity_id_1": "E006",
+      "entity_id_2": "E004",
+      "relationship_type": "Financial",
+      "notes": "Transferred funds into Nexus accounts"
+    },
+    {
+      "relationship_id": "R008",
+      "entity_id_1": "E007",
+      "entity_id_2": "E008",
+      "relationship_type": "Associate",
+      "notes": "E008 used Irongate cargo routes"
+    },
+    {
+      "relationship_id": "R009",
+      "entity_id_1": "E008",
+      "entity_id_2": "E002",
+      "relationship_type": "Communication",
+      "notes": "Coordinated via encrypted channel"
+    },
+    {
+      "relationship_id": "R010",
+      "entity_id_1": "E003",
+      "entity_id_2": "E004",
+      "relationship_type": "Financial",
+      "notes": "Wire transfers linked to Operation Blackwall"
+    }
+  ]
+}

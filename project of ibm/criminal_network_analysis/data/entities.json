@@ -1,0 +1,58 @@
+[
+  {
+    "entity_id": "E001",
+    "name": "Marcus Holloway",
+    "entity_type": "Person",
+    "alias": "The Broker",
+    "notes": "Key coordinator in multiple incidents"
+  },
+  {
+    "entity_id": "E002",
+    "name": "Elena Voss",
+    "entity_type": "Person",
+    "alias": "Ghost",
+    "notes": "Known for digital communication channels"
+  },
+  {
+    "entity_id": "E003",
+    "name": "Dante Reyes",
+    "entity_type": "Person",
+    "alias": "Cipher",
+    "notes": "Technical specialist"
+  },
+  {
+    "entity_id": "E004",
+    "name": "Nexus Trading Ltd",
+    "entity_type": "Organization",
+    "alias": "Nexus",
+    "notes": "Shell company linked to financial transfers"
+  },
+  {
+    "entity_id": "E005",
+    "name": "Ivan Petrov",
+    "entity_type": "Person",
+    "alias": "Shadow",
+    "notes": "Logistics coordinator"
+  },
+  {
+    "entity_id": "E006",
+    "name": "Lyra Chen",
+    "entity_type": "Person",
+    "alias": "",
+    "notes": "Financial analyst"
+  },
+  {
+    "entity_id": "E007",
+    "name": "Irongate Logistics",
+    "entity_type": "Organization",
+    "alias": "Irongate",
+    "notes": "Freight and cargo company"
+  },
+  {
+    "entity_id": "E008",
+    "name": "Sofia Navarro",
+    "entity_type": "Person",
+    "alias": "Viper",
+    "notes": "Field operative"
+  }
+]

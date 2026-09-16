@@ -1,0 +1,62 @@
+[
+  {
+    "incident_id": "I001",
+    "title": "Operation Blackwall",
+    "category": "Cybercrime",
+    "date": "2024-03-15",
+    "description": "Large-scale network intrusion targeting financial systems.",
+    "linked_entity_ids": [
+      "E001",
+      "E002",
+      "E003"
+    ]
+  },
+  {
+    "incident_id": "I002",
+    "title": "Meridian Bank Fraud",
+    "category": "Fraud",
+    "date": "2024-05-22",
+    "description": "Fraudulent transfers traced to shell accounts.",
+    "linked_entity_ids": [
+      "E001",
+      "E004",
+      "E006"
+    ]
+  },
+  {
+    "incident_id": "I003",
+    "title": "Port Cargo Theft",
+    "category": "Theft",
+    "date": "2024-07-08",
+    "description": "High-value cargo went missing at Port Meridian.",
+    "linked_entity_ids": [
+      "E005",
+      "E007",
+      "E008"
+    ]
+  },
+  {
+    "incident_id": "I004",
+    "title": "Shell Company Scheme",
+    "category": "Money Laundering",
+    "date": "2024-09-01",
+    "description": "Funds routed through multiple shell companies.",
+    "linked_entity_ids": [
+      "E004",
+      "E006",
+      "E007"
+    ]
+  },
+  {
+    "incident_id": "I005",
+    "title": "Dark Web Exchange",
+    "category": "Cybercrime",
+    "date": "2024-11-14",
+    "description": "Encrypted data packages exchanged on dark web forums.",
+    "linked_entity_ids": [
+      "E002",
+      "E003",
+      "E008"
+    ]
+  }
+]
